@@ -2,7 +2,7 @@
   "name": "cat-mbti",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://YOUR_GITHUB_USERNAME.github.io/cat-mbti",
+  "homepage": "https://chaolinchen.github.io/cat-mbti",
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
@@ -30,6 +30,7 @@
     "babel-loader": "^10.0.0",
     "css-loader": "^7.1.2",
     "css-minimizer-webpack-plugin": "^7.0.2",
+    "gh-pages": "^6.3.0",
     "html-webpack-plugin": "^5.6.0",
     "mini-css-extract-plugin": "^2.9.2",
     "style-loader": "^4.0.0",
@@ -38,8 +39,7 @@
     "typescript": "^4.9.5",
     "webpack": "^5.90.3",
     "webpack-cli": "^6.0.1",
-    "webpack-dev-server": "^5.0.2",
-    "gh-pages": "^6.1.1"
+    "webpack-dev-server": "^5.0.2"
   },
   "dependencies": {
     "@emotion/react": "^11.11.3",
@@ -48,7 +48,11 @@
     "@mui/icons-material": "^5.15.10",
     "@mui/material": "^5.15.10",
     "@mui/system": "^5.15.10",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
     "@types/html2canvas": "^0.5.35",
+    "@types/jest": "^27.5.2",
     "axios": "^1.8.4",
     "cheerio": "^1.0.0",
     "dotenv": "^16.4.7",
@@ -58,10 +62,6 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.1",
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.5.2",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
